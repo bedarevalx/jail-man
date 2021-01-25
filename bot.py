@@ -21,4 +21,4 @@ async def on_message(message):
         await message.author.send(f"Ваша жалоба отправлена администрации\nТекст жалобы:\n{message.content}")
 
 token = os.environ.get('BOT_TOKEN')
-bot.run(str(token))
+client.run(str(token))
